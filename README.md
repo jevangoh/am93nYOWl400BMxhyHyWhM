@@ -1,16 +1,11 @@
 # am93nYOWl400BMxhyHyWhM
 Documentation for setting up and contributing to source code repositories.
 
-This readme file is not the actual documentation, but the documentation for this repository itself.
-
 ## How to use
 \<to do>
 
 ## Dev
-This section describes how to contribute to this documentation repository.
-
-### prerequisites
-These prerequisites are **required** in order to contribute to this repository:
+These prerequisites are **required** for development work:
 1. install [pixi](https://pixi.prefix.dev/latest/)
 2. install [git](https://git-scm.com/)
 
