@@ -1,4 +1,4 @@
-# am93nYOWl400BMxhyHyWhM
+# ot1j9dc4rdqcs45pcvpho3jgr
 Documentation for setting up and contributing to source code repositories.
 
 ## How to use
@@ -12,11 +12,11 @@ These prerequisites are **required** for development work:
 ### clone repository
 First, clone the repository to your local machine using Git:
 ```bash
-git clone https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git
+git clone https://github.com/javerngoh/ot1j9dc4rdqcs45pcvpho3jgr.git
 ```
 Then cd into the cloned repository:
 ```bash
-cd am93nYOWl400BMxhyHyWhM
+cd ot1j9dc4rdqcs45pcvpho3jgr
 ```
 
 ### ticket
