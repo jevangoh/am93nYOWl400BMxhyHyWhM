@@ -7,8 +7,6 @@ These prerequisites are **required** for development work:
 # Creating a package 
 First generate an id using [r0tf0lOBqF6UZ2HxarUT3O](https://github.com/jevangoh/r0tf0lOBqF6UZ2HxarUT3O.git) package
 
-poMTQDTEu8WOPVIyqEDekY
-
 Then create a local pixi repo:
 ```bash
 pixi init <id> --format pyproject
