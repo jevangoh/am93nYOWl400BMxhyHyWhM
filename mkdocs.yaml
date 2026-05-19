@@ -1,0 +1,12 @@
+site_name: q6taaj04do99vgf9cog0gurq6
+theme:
+  name: material
+
+docs_dir: ot1j9dc4rdqcs45pcvpho3jgr
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: ["."]
+
+# nav:
+#   - Home: README.md
