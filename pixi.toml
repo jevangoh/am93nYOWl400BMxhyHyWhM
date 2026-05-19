@@ -5,10 +5,23 @@ name = "ot1j9dc4rdqcs45pcvpho3jgr"
 platforms = ["win-64"]
 version = "0.0.0"
 
-[tasks]
-
+# ==================================== defaults ====================================
 [dependencies]
+mkdocs = "*"
+mkdocs-material = "*"
+pymdown-extensions = ">=10.20,<11"
 
+[tasks]
+build_docs = "mkdocs build --config-file ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yaml"
+
+# ==================================== environments ====================================
+# ----------------------------- dev -----------------------------
+[environments.dev]
+features = ["dev"]
+solve-group = "default"
+
+# ==================================== features ====================================
+# ----------------------------- dev -----------------------------
 [feature.dev.dependencies]
 gh = "*"
 
@@ -30,8 +43,5 @@ init = """
     gh label create "scope: workflow" --color "5319e7" --description "Continuous Integration (CI) related."
 """
 
-[environments.dev]
-features = ["dev"]
-solve-group = "default"
 
 
