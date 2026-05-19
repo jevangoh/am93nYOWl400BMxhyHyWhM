@@ -8,8 +8,12 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ["."]
 
-on_nav_warning: info
-on_page_warning: info
+validation:
+  nav:
+    not_found: info
+    omitted_files: info
+  links:
+    not_found: info
 
 nav:
   - Home: introduction.md
