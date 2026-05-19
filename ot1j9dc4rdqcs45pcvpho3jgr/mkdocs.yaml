@@ -2,7 +2,7 @@ site_name: q6taaj04do99vgf9cog0gurq6
 theme:
   name: material
 
-docs_dir: .
+docs_dir: ot1j9dc4rdqcs45pcvpho3jgr
 
 markdown_extensions:
   - pymdownx.snippets:
@@ -15,17 +15,17 @@ validation:
   links:
     not_found: info
 
-# nav:
-#   - Home: introduction.md
-#   - Useage: useage.md
-#   - Conventions: conventions.md
-#   - Code of Conduct: code_of_conduct.md
-#   - Contributing: contributing.md
-#   - Contributors: contributors.md
-#   - Governance: governance.md
-#   - Labels: labels.md
-#   - Support: support.md
-#   - Ticketing: ticketing.md
-#   - Maintaining: maintaining.md
-#   - Security: security.md
+nav:
+  - Home: introduction.md
+  - Useage: useage.md
+  - Conventions: conventions.md
+  - Code of Conduct: code_of_conduct.md
+  - Contributing: contributing.md
+  - Contributors: contributors.md
+  - Governance: governance.md
+  - Labels: labels.md
+  - Support: support.md
+  - Ticketing: ticketing.md
+  - Maintaining: maintaining.md
+  - Security: security.md
   
