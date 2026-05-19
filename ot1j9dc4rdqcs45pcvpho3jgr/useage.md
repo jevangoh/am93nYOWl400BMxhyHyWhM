@@ -1,4 +1,4 @@
-# How to use
+# Useage
 
 There are many methods to use this repository.
 ## [pixi](https://pixi.prefix.dev/latest/) (preferred)
