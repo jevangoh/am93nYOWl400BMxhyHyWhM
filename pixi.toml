@@ -2,7 +2,7 @@
 authors = ["Javern Goh <javerngoh@gmail.com>"]
 channels = ["conda-forge"]
 name = "ot1j9dc4rdqcs45pcvpho3jgr"
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64"]
 version = "0.0.0"
 
 # ==================================== defaults ====================================
