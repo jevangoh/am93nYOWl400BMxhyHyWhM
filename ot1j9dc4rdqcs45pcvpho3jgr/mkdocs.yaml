@@ -10,7 +10,7 @@ markdown_extensions:
 
 nav:
   - Home: introduction.md
-  - Useage: how_to_use.md
+  - Useage: useage.md
   - Conventions: conventions.md
   - Code of Conduct: code_of_conduct.md
   - Contributing: contributing.md
