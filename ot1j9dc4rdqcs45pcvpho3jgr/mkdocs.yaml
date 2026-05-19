@@ -8,5 +8,5 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ["."]
 
-# nav:
-#   - Home: README.md
+nav:
+  - Home: introduction.md
