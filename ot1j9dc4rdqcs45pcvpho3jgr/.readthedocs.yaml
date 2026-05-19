@@ -1,7 +1,5 @@
 version: 2
 
-mkdocs:
-  configuration: ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yaml
 
 build:
   os: ubuntu-22.04
