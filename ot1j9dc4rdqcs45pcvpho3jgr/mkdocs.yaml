@@ -16,7 +16,7 @@ validation:
     not_found: info
 
 nav:
-  - Home: introduction.md
+  - Home: index.md
   - Useage: useage.md
   - Conventions: conventions.md
   - Code of Conduct: code_of_conduct.md
