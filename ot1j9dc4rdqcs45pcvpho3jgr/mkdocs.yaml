@@ -8,6 +8,9 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ["."]
 
+on_nav_warning: info
+on_page_warning: info
+
 nav:
   - Home: introduction.md
   - Useage: useage.md
