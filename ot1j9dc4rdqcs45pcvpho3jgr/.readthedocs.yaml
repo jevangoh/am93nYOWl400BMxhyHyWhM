@@ -1,5 +1,8 @@
 version: 2
 
+mkdocs:
+  configuration: ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yaml
+
 build:
   os: ubuntu-22.04
   tools:
@@ -9,3 +12,4 @@ build:
     - curl -fsSL https://pixi.sh/install.sh | bash
     - export PATH="$HOME/.pixi/bin:$PATH" && $HOME/.pixi/bin/pixi install -e dev
     - export PATH="$HOME/.pixi/bin:$PATH" && $HOME/.pixi/bin/pixi run -e dev build_docs --site-dir $READTHEDOCS_OUTPUT/html
+    - echo "Documentation build verified successfully"
