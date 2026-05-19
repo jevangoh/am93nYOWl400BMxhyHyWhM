@@ -2,10 +2,10 @@
 Please read through the following guidelines before contributing to the project. 
 
 ## Issues and feature requests
-Visit [support](<!-- insert link -->) for issues and feature requests.
+Visit [support]() <!-- insert link --> for issues and feature requests.
 
 ## Repo contribution
-When contributing to the repository, please follow the [code of conduct](<!-- insert link -->). Look for tickets in Github Issues that you are confident to take on and assign it to yourself.
+When contributing to the repository, please follow the [code of conduct]()<!-- insert link -->. Look for tickets in Github Issues that you are confident to take on and assign it to yourself.
 
 ### Prerequisites
 These prerequisites are **required** for development work:

@@ -1,5 +1,5 @@
 # Ticketing
-Please read through the [support.md](<!-- insert link -->) before submitting a ticket.
+Please read through the [support.md]()<!-- insert link --> before submitting a ticket.
 
 ## Creating ticket
 You can either submit it via the Github UI through the repo site or through the terminal. 
@@ -10,13 +10,13 @@ pixi run -e dev gh issue create
 ```
 Then Follow the prompts.
 
-Name of issue should be in [sentence case](<!-- insert link -->)
-Assign the relevant and correct metadata, **especially the [labels](<-- insert link -->)**.
+Name of issue should be in [sentence case]()<!-- insert link -->
+Assign the relevant and correct metadata, **especially the [labels]()**.<-- insert link -->
 
 ## Submitting ticket
 Read through the ticket again and ensure the details are completed and correct. Proceed to submit the ticket once you are ready.
 > [!NOTE]
-> Please ensure the relevant and correct [labels](<-- insert link -->) are selected before submitting!
+> Please ensure the relevant and correct [labels]()<!-- insert link --> are selected before submitting!
 
 Once the ticket is submitted, you will be issued an ID assigned to the ticket, please take note of the ID and record it down somewhere. This ID will be used to track the issue.
 
