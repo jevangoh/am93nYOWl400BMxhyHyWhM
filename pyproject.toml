@@ -1,31 +1,43 @@
-[workspace]
-authors = ["Javern Goh <javerngoh@gmail.com>"]
-channels = ["conda-forge"]
+######################################################################################################
+#                                              metadata                                              #
+######################################################################################################
+[project]
 name = "ot1j9dc4rdqcs45pcvpho3jgr"
-platforms = ["win-64", "linux-64"]
 version = "0.0.0"
+
+requires-python = ">= 3.11"
+dependencies = ["copier>=9.14.3,<10"]
+
+authors = [{name = "Jevan Goh", email = "javerngoh@gmail.com"}]
+
+######################################################################################################
+#                                                pixi                                                #
+######################################################################################################
+[workspace]
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64"]
 
 # ==================================== defaults ====================================
 [dependencies]
-mkdocs = "*"
-mkdocs-material = "*"
-pymdown-extensions = ">=10.20,<11"
-
 [tasks]
-build_docs = "mkdocs build --config-file mkdocs.yaml"
 
 # ==================================== environments ====================================
 # ----------------------------- dev -----------------------------
-[environments.dev]
-features = ["dev"]
+[tool.pixi.environments.dev]
+features = ["docs", "dev"]
 solve-group = "default"
 
 # ==================================== features ====================================
 # ----------------------------- dev -----------------------------
-[feature.dev.dependencies]
-gh = "*"
+[tool.pixi.feature.dev.dependencies]
+prek = ">=0.2.30,<0.3"
+nodejs = ">=25.2.1,<25.3"
+markdownlint-cli2 = ">=0.20.0,<0.21"
 
-[feature.dev.tasks]
+[tool.pixi.feature.dev.tasks]
+setup = "prek install"
+lint_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
+format_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
 init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;
@@ -43,5 +55,12 @@ init = """
     gh label create "scope: workflow" --color "5319e7" --description "Continuous Integration (CI) related."
 """
 
+# ----------------------------- docs -----------------------------
+[tool.pixi.feature.docs.dependencies]
+mkdocs = "*"
+mkdocs-material = "*"
+pymdown-extensions = ">=10.20,<11"
 
+[tool.pixi.feature.docs.tasks]
+build_docs = "mkdocs build --config-file mkdocs.yaml"
 
