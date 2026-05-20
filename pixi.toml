@@ -12,7 +12,7 @@ mkdocs-material = "*"
 pymdown-extensions = ">=10.20,<11"
 
 [tasks]
-build_docs = "mkdocs build --config-file ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yaml"
+build_docs = "mkdocs build --config-file mkdocs.yaml"
 
 # ==================================== environments ====================================
 # ----------------------------- dev -----------------------------

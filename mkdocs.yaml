@@ -1,4 +1,4 @@
-site_name: q6taaj04do99vgf9cog0gurq6
+site_name: ot1j9dc4rdqcs45pcvpho3jgr
 theme:
   name: material
 
@@ -8,5 +8,24 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ["."]
 
-# nav:
-#   - Home: README.md
+validation:
+  nav:
+    not_found: info
+    omitted_files: info
+  links:
+    not_found: info
+
+nav:
+  - Home: index.md
+  - Useage: useage.md
+  - Conventions: conventions.md
+  - Code of Conduct: code_of_conduct.md
+  - Contributing: contributing.md
+  - Contributors: contributors.md
+  - Governance: governance.md
+  - Labels: labels.md
+  - Support: support.md
+  - Ticketing: ticketing.md
+  - Maintaining: maintaining.md
+  - Security: security.md
+  
