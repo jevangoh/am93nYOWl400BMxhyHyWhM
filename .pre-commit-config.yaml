@@ -1,0 +1,21 @@
+repos:
+  - repo: local
+    hooks:
+      - id: pixi-install
+        name: pixi-install
+        entry: pixi install
+        language: system
+        pass_filenames: false
+
+      - id: format-markdown
+        name: format-markdown
+        entry: pixi run -e dev format_markdown
+        language: system
+        types: [markdown]
+        pass_filenames: true   
+
+      - id: check-for-drift
+        name: check-for-drift
+        entry: git diff --exit-code
+        language: system
+        pass_filenames: false
