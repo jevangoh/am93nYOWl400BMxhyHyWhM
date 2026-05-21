@@ -4,7 +4,7 @@ There are conventional styles, terms and terminologies used in this documentatio
 
 | Convention | Format | Description |
 | ---------- | ------ | ----------- |
-|placeholder|<placeholder_name>|A value you must replace with your own specific data. Do not type the < > brackets. e.g. cd <file_path> should be interpreted as my_project/source.
+|placeholder|`<placeholder_name>`|A value you must replace with your own specific data. Do not type the < > brackets. e.g. cd <file_path> should be interpreted as my_project/source.
 
 ## Placeholders
 
