@@ -59,7 +59,6 @@ init = """
     gh label create "scope: docs" --color "a2eeef" --description "Documentation about this repository, i.e. Meta-documentation (README, contributing, license)." --force &&
     gh label create "scope: workflow" --color "5319e7" --description "Continuous Integration (CI) related."
 """
-build = "mkdocs build --config-file mkdocs.yaml"
 
 # ----------------------------- docs -----------------------------
 [tool.pixi.feature.docs.dependencies]
@@ -69,5 +68,5 @@ pymdown-extensions = ">=10.20,<11"
 mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
 [tool.pixi.feature.docs.tasks]
-build_docs = "mkdocs build --config-file .mkdocs.yaml"
+build_docs = "mkdocs build --config-file mkdocs.yaml"
 

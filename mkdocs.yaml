@@ -32,3 +32,6 @@ nav:
   - Ticketing: ticketing.md
   - Maintaining: maintaining.md
   - Security: security.md
+  - Documentation:
+    - Home: documentation/readme.md
+    - Labels: documentation/labels.md
