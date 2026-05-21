@@ -1,4 +1,5 @@
 site_name: ot1j9dc4rdqcs45pcvpho3jgr
+
 theme:
   name: material
 
@@ -32,4 +33,4 @@ nav:
   - Ticketing: ticketing.md
   - Maintaining: maintaining.md
   - Security: security.md
-  - Docs: '!include ./docs/mkdocs.yaml'
+  - Docs: '*import ./docs/mkdocs.yaml'
