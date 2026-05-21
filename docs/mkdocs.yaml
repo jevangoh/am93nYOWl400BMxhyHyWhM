@@ -1,6 +1,6 @@
 site_name: docs
 
 nav:
-  - Home: index.md
+  - Home: readme.md
   - Labels: labels.md
   
