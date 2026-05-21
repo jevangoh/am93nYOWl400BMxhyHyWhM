@@ -1,6 +1,6 @@
 # Labels
 
-Every label consist of the category and the value and are in the lowercase format of '<category>':'<value>'
+Every label consist of the category and the value and are in the lowercase format of `<category>`:`<value>`
 
 ## Values of label types
 
