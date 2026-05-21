@@ -20,5 +20,5 @@ validation:
     not_found: info
 
 nav:
-  '*import ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yml'
+  - "":'*import ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yml'
   - docs: '*import docs/mkdocs.yml'
