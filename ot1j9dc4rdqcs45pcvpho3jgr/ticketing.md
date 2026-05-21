@@ -15,7 +15,7 @@ pixi run -e dev gh issue create
 Then Follow the prompts.
 
 Name of issue should be in [sentence case]()<!-- insert link -->
-Assign the relevant and correct metadata, **especially the [labels]()**.<-- insert link -->
+Assign the relevant and correct metadata, **especially the [labels]()**.<!-- insert link -->
 
 ## Submitting ticket
 
