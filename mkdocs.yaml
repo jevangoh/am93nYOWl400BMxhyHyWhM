@@ -2,7 +2,7 @@ site_name: ot1j9dc4rdqcs45pcvpho3jgr
 theme:
   name: material
 
-docs_dir: ot1j9dc4rdqcs45pcvpho3jgr
+# docs_dir: ot1j9dc4rdqcs45pcvpho3jgr
 
 markdown_extensions:
   - pymdownx.snippets:
@@ -20,5 +20,16 @@ validation:
     not_found: info
 
 nav:
-  - "":'*import ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yml'
-  - docs: '*import docs/mkdocs.yml'
+  - Home: ot1j9dc4rdqcs45pcvpho3jgr/index.md
+  - Useage: ot1j9dc4rdqcs45pcvpho3jgr/useage.md
+  - Conventions: ot1j9dc4rdqcs45pcvpho3jgr/conventions.md
+  - Code oot1j9dc4rdqcs45pcvpho3jgr/f Conduct: code_of_conduct.md
+  - Contributing: ot1j9dc4rdqcs45pcvpho3jgr/contributing.md
+  - Contributors: ot1j9dc4rdqcs45pcvpho3jgr/contributors.md
+  - Governance: ot1j9dc4rdqcs45pcvpho3jgr/governance.md
+  - Labels: ot1j9dc4rdqcs45pcvpho3jgr/labels.md
+  - Support: ot1j9dc4rdqcs45pcvpho3jgr/support.md
+  - Ticketing: ot1j9dc4rdqcs45pcvpho3jgr/ticketing.md
+  - Maintaining: ot1j9dc4rdqcs45pcvpho3jgr/maintaining.md
+  - Security: ot1j9dc4rdqcs45pcvpho3jgr/security.md
+  - Docs: '*import docs/mkdocs.yml'
