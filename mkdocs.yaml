@@ -2,6 +2,30 @@ site_name: ot1j9dc4rdqcs45pcvpho3jgr
 
 theme:
   name: material
+  palette:
+    # Automatic/System Mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 docs_dir: ot1j9dc4rdqcs45pcvpho3jgr
 
