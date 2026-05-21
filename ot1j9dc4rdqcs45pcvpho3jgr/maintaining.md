@@ -20,7 +20,7 @@ If the pull request bumps the version, tag the commit:
 pixi run -e dev git tag -a v<version> -m "release version <version>"
 ```
 
-where \<version> is the version after released. It should contain only numbers and decimals.
+where `<version>` is the version after released. It should contain only numbers and decimals.
 
 For example, if the version to be released is 1.3.3, you will run:
 
