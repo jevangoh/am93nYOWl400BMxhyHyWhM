@@ -61,7 +61,7 @@ These prerequisites are **required** for development work:
    This will create and checkout to the issue branch.
    The branch name will be the issue id followed by the issue title, the branch name is in lower kebab case.
 3. When changes are done, open a pull request: `pixi run -e dev gh pr create`
-   PR title should be the gh issue name and followed by \# issue id in parentheses.
+   PR title should be the gh issue name and followed by \#issue id in parentheses.
    For example, if the issue id is 1 and the title of the issue is "Initial test", the pr title would be "Initial test (\#1)".
 
-   For the body of the PR, include "Closes \#<issue id>" to automatically close the issue automatically when the PR is merged. Using the same example, it would be "Closes \#1".
+   For the body of the PR, include "Closes \#`<issue id>`" to automatically close the issue automatically when the PR is merged. Using the same example, it would be "Closes \#1".
