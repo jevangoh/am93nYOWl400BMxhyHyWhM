@@ -1,7 +1,7 @@
 version: 2
 
 mkdocs:
-  configuration: .mkdocs.yaml
+  configuration: mkdocs.yaml
 
 build:
   os: ubuntu-22.04
@@ -11,4 +11,4 @@ build:
   commands:
     - curl -fsSL https://pixi.sh/install.sh | bash
     - export PATH="$HOME/.pixi/bin:$PATH" && $HOME/.pixi/bin/pixi install -e dev
-    - export PATH="$HOME/.pixi/bin:$PATH" && $HOME/.pixi/bin/pixi run -e dev build_docs --site-dir $READTHEDOCS_OUTPUT/html
+    - export PATH="$HOME/.pixi/bin:$PATH" && $HOME/.pixi/bin/pixi run -e dev build --site-dir $READTHEDOCS_OUTPUT/html

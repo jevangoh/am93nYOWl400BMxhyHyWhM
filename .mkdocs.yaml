@@ -1,0 +1,25 @@
+site_name: documentation
+
+theme:
+  name: material
+
+docs_dir: documentation
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: ["."]
+
+plugins:
+  - search
+
+validation:
+  nav:
+    not_found: info
+    omitted_files: info
+  links:
+    not_found: info
+
+nav:
+  - Home: readme.md
+  - Labels: labels.md
+  
