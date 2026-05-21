@@ -33,6 +33,10 @@ solve-group = "default"
 prek = ">=0.2.30,<0.3"
 nodejs = ">=25.2.1,<25.3"
 markdownlint-cli2 = ">=0.20.0,<0.21"
+mkdocs = "*"
+mkdocs-material = "*"
+pymdown-extensions = ">=10.20,<11"
+mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
 [tool.pixi.feature.dev.tasks]
 setup = "prek install"
@@ -62,6 +66,7 @@ init = """
 mkdocs = "*"
 mkdocs-material = "*"
 pymdown-extensions = ">=10.20,<11"
+mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
 [tool.pixi.feature.docs.tasks]
 build_docs = "mkdocs build --config-file mkdocs.yaml"
