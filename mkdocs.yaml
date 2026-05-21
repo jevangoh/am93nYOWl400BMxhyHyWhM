@@ -33,4 +33,5 @@ nav:
   - Ticketing: ticketing.md
   - Maintaining: maintaining.md
   - Security: security.md
-  - Docs: '!include docs/mkdocs.yaml'
+  - Docs: 
+    - Test2: '!include docs/mkdocs.yaml'
