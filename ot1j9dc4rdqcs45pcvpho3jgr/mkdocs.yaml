@@ -1,0 +1,16 @@
+site_name: main
+
+nav:
+  - Home: index.md
+  - Useage: useage.md
+  - Conventions: conventions.md
+  - Code of Conduct: code_of_conduct.md
+  - Contributing: contributing.md
+  - Contributors: contributors.md
+  - Governance: governance.md
+  - Labels: labels.md
+  - Support: support.md
+  - Ticketing: ticketing.md
+  - Maintaining: maintaining.md
+  - Security: security.md
+  

@@ -20,5 +20,5 @@ The values for enumeration type labels is provided in their corresponding descri
 
 | Category | Type | Description |
 | -------- | ---- | ----------- |
-|scope|enumeration|The section that is changed.<br><br> &nbsp;&nbsp;&nbsp;&nbsp; 1. source_code: The actual source code.<br> &nbsp;&nbsp;&nbsp;&nbsp; 2. docs: Documentation(README, contributing, license, readthedocs, etc).<br> &nbsp;&nbsp;&nbsp;&nbsp; 3. workflow: Continuous Integration (CI) related.|
+|scope|enumeration|The section that is changed.<br><br> &nbsp;&nbsp;&nbsp;&nbsp; 1. content: The actual content.<br> &nbsp;&nbsp;&nbsp;&nbsp; 2. docs: Documentation about this repository, i.e. meta-documentation (README, contributing, license, etc).<br> &nbsp;&nbsp;&nbsp;&nbsp; 3. workflow: Continuous Integration (CI) related.|
 |type|enumeration|The type of ticket.<br><br> &nbsp;&nbsp;&nbsp;&nbsp; 1. bug: Incorrect information, broken links, typos or errata.<br> &nbsp;&nbsp;&nbsp;&nbsp; 2. suggestion: Proposed improvements or new ideas.|

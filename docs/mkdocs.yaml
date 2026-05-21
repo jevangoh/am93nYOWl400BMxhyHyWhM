@@ -1,0 +1,6 @@
+site_name: docs
+
+nav:
+  - Home: index.md
+  - Labels: labels.md
+  

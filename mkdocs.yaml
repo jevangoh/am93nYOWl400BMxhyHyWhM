@@ -8,6 +8,10 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: ["."]
 
+plugins:
+  - search
+  - monorepo    
+
 validation:
   nav:
     not_found: info
@@ -16,16 +20,5 @@ validation:
     not_found: info
 
 nav:
-  - Home: index.md
-  - Useage: useage.md
-  - Conventions: conventions.md
-  - Code of Conduct: code_of_conduct.md
-  - Contributing: contributing.md
-  - Contributors: contributors.md
-  - Governance: governance.md
-  - Labels: labels.md
-  - Support: support.md
-  - Ticketing: ticketing.md
-  - Maintaining: maintaining.md
-  - Security: security.md
-  
+  - '*import ot1j9dc4rdqcs45pcvpho3jgr/mkdocs.yml'
+  - docs: '*import docs/mkdocs.yml'
