@@ -36,8 +36,10 @@ markdownlint-cli2 = ">=0.20.0,<0.21"
 
 [tool.pixi.feature.dev.tasks]
 setup = "prek install"
-lint_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
-format_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
+lint_markdown = "npx --yes markdownlint-cli2"
+format_markdown = "npx --yes markdownlint-cli2 --fix"
+lint_all_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
+format_all_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
 init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;
