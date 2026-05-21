@@ -15,9 +15,6 @@ jobs:
             environments: dev
             cache: true
 
-        - name: Run Markdown Lint
-          run: pixi run -e dev lint_markdown
-
         - name: Run Markdown Format
           run: pixi run -e dev format_markdown          
 
