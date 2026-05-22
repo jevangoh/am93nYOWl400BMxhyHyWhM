@@ -1,6 +1,6 @@
-# Conventions
+# Glossary
 
-There are conventional styles, terms and terminologies used in this documentation.
+There are some conventional styles, terms and terminologies used in throughout this documentation.
 
 | Convention  | Format               | Description                                                                                                                                               |
 | ----------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |

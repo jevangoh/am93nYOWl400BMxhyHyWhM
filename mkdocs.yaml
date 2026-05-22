@@ -48,7 +48,7 @@ nav:
   - About Repository:
       - About: about_repository/about.md
       - Labels: about_repository/labels.md
-  - Conventions: conventions.md
+  - Glossary: glossary.md
   - Useage: useage.md
   - Code of Conduct: code_of_conduct.md
   - Contributing: contributing.md
