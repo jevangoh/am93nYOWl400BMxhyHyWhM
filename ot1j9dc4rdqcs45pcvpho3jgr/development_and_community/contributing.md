@@ -4,7 +4,7 @@ Please read through the following guidelines before contributing to the project.
 
 ## Issues and feature requests
 
-Visit [support]() <!-- insert link --> for issues and feature requests.
+Visit [support](./../help_and_support/support.md) for issues and feature requests.
 
 ## Repo contribution
 
