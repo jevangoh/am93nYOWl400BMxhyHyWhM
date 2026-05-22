@@ -4,22 +4,22 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   markdown-lint:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout code
-          uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-        - name: Setup Pixi
-          uses: prefix-dev/setup-pixi@v0.8.0
-          with:
-            environments: dev
-            cache: true
+      - name: Setup Pixi
+        uses: prefix-dev/setup-pixi@v0.8.0
+        with:
+          environments: dev
+          cache: true
 
-        - name: Lint Markdown
-          run: pixi run -e dev lint_all_markdown                  
+      - name: Lint Markdown
+        run: pixi run -e dev lint_all_documents
 
-        - name: Format Markdown
-          run: pixi run -e dev format_all_markdown          
+      - name: Format Markdown
+        run: pixi run -e dev format_all_documents
 
-        - name: Check for drift
-          run: git diff --exit-code
+      - name: Check for drift
+        run: git diff --exit-code

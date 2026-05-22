@@ -41,14 +41,14 @@ prettier = ">=3.8.3"
 
 [tool.pixi.feature.dev.tasks]
 setup = "prek install"
-# lint_markdown = "npx --yes markdownlint-cli2"
-# format_markdown = "npx --yes markdownlint-cli2 --fix"
-# lint_all_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
-# format_all_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
-lint_markdown = "prettier --check"
-format_markdown = "prettier --write"
-lint_all_markdown = "prettier --check ."
-format_all_markdown = "prettier --write ."
+# lint_documents = "npx --yes markdownlint-cli2"
+# format_documents = "npx --yes markdownlint-cli2 --fix"
+# lint_all_documents = "npx --yes markdownlint-cli2 '**/*.md'"
+# format_all_documents = "npx --yes markdownlint-cli2 --fix '**/*.md'"
+lint_documents = "prettier --check --ignore-unknown"
+format_documents = "prettier --write --ignore-unknown"
+lint_all_documents = "prettier --check . --ignore-unknown"
+format_all_documents = "prettier --write . --ignore-unknown"
 init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;

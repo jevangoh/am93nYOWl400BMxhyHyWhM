@@ -7,13 +7,11 @@ repos:
         language: system
         pass_filenames: false
 
-      - id: format-markdown
-        name: format-markdown
-        entry: pixi run -e dev format_markdown
+      - id: format-documents
+        name: format-documents
+        entry: pixi run -e dev format_documents
         language: system
-        types: [markdown]
         pass_filenames: true
-        files: \.(js|ts|jsx|tsx|json|yaml|yml|md|cff)$
 
       - id: check-for-drift
         name: check-for-drift
