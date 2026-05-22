@@ -1,4 +1,4 @@
-# Usage
+# User Guide
 
 There are many methods to use this repository.
 

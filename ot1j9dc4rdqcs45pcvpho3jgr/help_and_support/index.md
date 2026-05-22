@@ -1,4 +1,4 @@
-# Support
+# Help and Support
 
 This project uses GitHub Issues to track bugs and feature requests.
 
