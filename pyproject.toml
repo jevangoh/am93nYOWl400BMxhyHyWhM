@@ -31,18 +31,24 @@ solve-group = "default"
 # ----------------------------- dev -----------------------------
 [tool.pixi.feature.dev.dependencies]
 prek = ">=0.2.30,<0.3"
-nodejs = ">=25.2.1,<25.3"
+# nodejs = ">=25.2.1,<25.3"
+nodejs = ">=24,<25.3"
 markdownlint-cli2 = ">=0.20.0,<0.21"
-mkdocs = "*"
-mkdocs-material = "*"
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.7.6,<10"
 pymdown-extensions = ">=10.20,<11"
+prettier = ">=3.8.3"
 
 [tool.pixi.feature.dev.tasks]
 setup = "prek install"
-lint_markdown = "npx --yes markdownlint-cli2"
-format_markdown = "npx --yes markdownlint-cli2 --fix"
-lint_all_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
-format_all_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
+# lint_markdown = "npx --yes markdownlint-cli2"
+# format_markdown = "npx --yes markdownlint-cli2 --fix"
+# lint_all_markdown = "npx --yes markdownlint-cli2 '**/*.md'"
+# format_all_markdown = "npx --yes markdownlint-cli2 --fix '**/*.md'"
+lint_markdown = "pixi run -e dev prettier --check"
+format_markdown = "pixi run -e dev prettier --write"
+lint_all_markdown = "pixi run -e dev prettier --check ."
+format_all_markdown = "pixi run -e dev prettier --write ."
 init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;
@@ -62,8 +68,8 @@ init = """
 
 # ----------------------------- docs -----------------------------
 [tool.pixi.feature.docs.dependencies]
-mkdocs = "*"
-mkdocs-material = "*"
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.7.6,<10"
 pymdown-extensions = ">=10.20,<11"
 mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
