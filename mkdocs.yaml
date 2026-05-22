@@ -2,6 +2,8 @@ site_name: ot1j9dc4rdqcs45pcvpho3jgr
 
 theme:
   name: material
+  features:
+    - navigation.indexes
   palette:
     # Automatic/System Mode
     - media: "(prefers-color-scheme)"
@@ -55,17 +57,18 @@ nav:
       - Pip: user_guide/pip_usage.md
 
   - Help and Support:
-      - Support: help_and_support/support.md
+      - help_and_support/index.md
       - Ticketing: help_and_support/ticketing.md
       - Labels: help_and_support/labels.md
 
   - Development and Community:
+      - development_and_community/index.md
       - Contributing: development_and_community/contributing.md
       - Maintaining: development_and_community/maintaining.md
       - Contributors: development_and_community/contributors.md
 
   - About Repository:
-      - About: about_repository/about.md
+      - about_repository/index.md
       - Labels: about_repository/labels.md
 
   - Governance and Legal:
