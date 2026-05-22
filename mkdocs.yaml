@@ -45,17 +45,27 @@ validation:
 
 nav:
   - Home: index.md
+
+  - Glossary: glossary.md
+
+  - User Guide:
+      - Usage: user_guide/usage.md
+
+  - Help and Support:
+      - Support: help_and_support/support.md
+      - Ticketing: help_and_support/ticketing.md
+      - Labels: help_and_support/labels.md
+
+  - Development and Community:
+      - Contributing: development_and_community/contributing.md
+      - Maintaining: development_and_community/maintaining.md
+      - Contributors: development_and_community/contributors.md
+
   - About Repository:
       - About: about_repository/about.md
       - Labels: about_repository/labels.md
-  - Glossary: glossary.md
-  - Useage: useage.md
-  - Code of Conduct: code_of_conduct.md
-  - Contributing: contributing.md
-  - Contributors: contributors.md
-  - Governance: governance.md
-  - Labels: labels.md
-  - Support: support.md
-  - Ticketing: ticketing.md
-  - Maintaining: maintaining.md
-  - Security: security.md
+
+  - Governance and Legal:
+      - Governance: governance_and_legal/governance.md
+      - Code of Conduct: governance_and_legal/code_of_conduct.md
+      - Security Policy: governance_and_legal/security.md

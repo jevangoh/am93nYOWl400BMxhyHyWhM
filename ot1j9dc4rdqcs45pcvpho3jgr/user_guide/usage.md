@@ -1,4 +1,4 @@
-# Useage
+# Usage
 
 There are many methods to use this repository.
 
