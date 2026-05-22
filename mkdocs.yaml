@@ -46,10 +46,10 @@ validation:
 nav:
   - Home: index.md
   - About Repository:
-      - About: about_repository/readme.md
+      - About: about_repository/about.md
       - Labels: about_repository/labels.md
-  - Useage: useage.md
   - Conventions: conventions.md
+  - Useage: useage.md
   - Code of Conduct: code_of_conduct.md
   - Contributing: contributing.md
   - Contributors: contributors.md
