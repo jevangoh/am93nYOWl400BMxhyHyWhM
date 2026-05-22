@@ -12,7 +12,8 @@ repos:
         entry: pixi run -e dev format_markdown
         language: system
         types: [markdown]
-        pass_filenames: true   
+        pass_filenames: true
+        files: \.(js|ts|jsx|tsx|json|yaml|yml|md|cff)$
 
       - id: check-for-drift
         name: check-for-drift
