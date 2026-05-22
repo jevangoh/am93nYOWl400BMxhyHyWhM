@@ -1,6 +1,6 @@
 # Maintaining
 
-Ensure the pre-requisites of [contributing.md]()<!-- insert link --> are met before doing any maintenance.
+Ensure the pre-requisites of [contributing.md](./contributing.md) are met before doing any maintenance.
 
 ## Merging Pull Requests
 
