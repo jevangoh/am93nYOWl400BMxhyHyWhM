@@ -17,42 +17,42 @@ These prerequisites are **required** for development work:
 1. install [pixi](https://pixi.prefix.dev/latest/)
 2. clone the repo locally by using [git](https://git-scm.com/) in a pixi environment (recommended) or install it locally.
 
-    a. If using local git, run
+   a. If using local git, run
 
-    ```bash
-    git clone <repo_url>
-    ```
+   ```bash
+   git clone <repo_url>
+   ```
 
-    b. if using pixi environemnt, first create directory, then cd into the directory and init the pixi environment in the directory:
+   b. if using pixi environemnt, first create directory, then cd into the directory and init the pixi environment in the directory:
 
-    ```bash
-    pixi init
-    ```
+   ```bash
+   pixi init
+   ```
 
-    Add git as a dependency to the dev feature
+   Add git as a dependency to the dev feature
 
-    ```bash
-    pixi add git --feature dev
-    ```
+   ```bash
+   pixi add git --feature dev
+   ```
 
-    clone the repository:
+   clone the repository:
 
-    ```bash
-    pixi run -e dev git clone <repo_url>
-    ```
+   ```bash
+   pixi run -e dev git clone <repo_url>
+   ```
 
-    c. if you already have the repo locally, ensure the main branch is up to date.
-    First checkout to the main branch:
+   c. if you already have the repo locally, ensure the main branch is up to date.
+   First checkout to the main branch:
 
-    ```bash
-    pixi run -e dev git checkout main
-    ```
+   ```bash
+   pixi run -e dev git checkout main
+   ```
 
-    Then pull the latest version from the remote repo:
+   Then pull the latest version from the remote repo:
 
-    ```bash
-    pixi run -e dev git pull origin main
-    ```
+   ```bash
+   pixi run -e dev git pull origin main
+   ```
 
 ### Development
 

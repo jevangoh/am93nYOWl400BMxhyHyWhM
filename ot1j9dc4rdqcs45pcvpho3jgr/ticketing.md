@@ -20,6 +20,7 @@ Assign the relevant and correct metadata, **especially the [labels]()**.<!-- ins
 ## Submitting ticket
 
 Read through the ticket again and ensure the details are completed and correct. Proceed to submit the ticket once you are ready.
+
 > [!NOTE]
 > Please ensure the relevant and correct [labels]()<!-- insert link --> are selected before submitting!
 

@@ -46,8 +46,8 @@ validation:
 nav:
   - Home: index.md
   - About Repository:
-    - About: about_repository/readme.md
-    - Labels: about_repository/labels.md
+      - About: about_repository/readme.md
+      - Labels: about_repository/labels.md
   - Useage: useage.md
   - Conventions: conventions.md
   - Code of Conduct: code_of_conduct.md
