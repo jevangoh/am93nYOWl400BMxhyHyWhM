@@ -6,4 +6,4 @@ There are many methods to use this repository.
 
 2. [uv](./uv_usage.md)
 
-3. [pip](./pip_useage.md)
+3. [pip](./pip_usage.md)
