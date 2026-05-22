@@ -72,6 +72,7 @@ nav:
       - Labels: about_repository/labels.md
 
   - Governance and Legal:
+      - governance_and_legal/index.md
       - Governance: governance_and_legal/governance.md
       - Code of Conduct: governance_and_legal/code_of_conduct.md
       - Security Policy: governance_and_legal/security.md
