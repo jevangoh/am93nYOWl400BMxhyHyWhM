@@ -2,8 +2,8 @@
 
 There are many methods to use this repository.
 
-## [pixi](https://pixi.prefix.dev/latest/) (preferred)
+1. [pixi](./pixi_usage.md) (preferred)
 
-## [uv](https://docs.astral.sh/uv/)
+2. [uv](./uv_usage.md)
 
-## [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+3. [pip](./pip_useage.md)
