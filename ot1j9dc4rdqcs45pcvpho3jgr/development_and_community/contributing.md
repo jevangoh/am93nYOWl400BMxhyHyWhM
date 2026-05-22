@@ -8,7 +8,7 @@ Visit [support](./../help_and_support/support.md) for issues and feature request
 
 ## Repo contribution
 
-When contributing to the repository, please follow the [code of conduct]()<!-- insert link -->. Look for tickets in Github Issues that you are confident to take on and assign it to yourself.
+When contributing to the repository, please follow the [code of conduct](./../governance_and_legal/code_of_conduct.md). Look for tickets in Github Issues that you are confident to take on and assign it to yourself.
 
 ### Prerequisites
 
