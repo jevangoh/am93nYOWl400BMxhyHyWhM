@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  markdown-lint:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,10 +15,10 @@ jobs:
           environments: dev
           cache: true
 
-      - name: Lint Markdown
+      - name: Lint
         run: pixi run -e dev lint_all_documents
 
-      - name: Format Markdown
+      - name: Format
         run: pixi run -e dev format_all_documents
 
       - name: Check for drift
