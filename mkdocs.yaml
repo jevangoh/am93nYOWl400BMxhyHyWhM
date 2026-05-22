@@ -45,6 +45,9 @@ validation:
 
 nav:
   - Home: index.md
+  - About Repository:
+    - About: about_repository/readme.md
+    - Labels: about_repository/labels.md
   - Useage: useage.md
   - Conventions: conventions.md
   - Code of Conduct: code_of_conduct.md
@@ -56,6 +59,3 @@ nav:
   - Ticketing: ticketing.md
   - Maintaining: maintaining.md
   - Security: security.md
-  - Documentation:
-    - Home: documentation/readme.md
-    - Labels: documentation/labels.md
