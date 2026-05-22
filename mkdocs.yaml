@@ -50,6 +50,9 @@ nav:
 
   - User Guide:
       - Usage: user_guide/usage.md
+      - Pixi (preferred): user_guide/pixi_usage.md
+      - Uv: user_guide/uv_usage.md
+      - Pip: user_guide/pip_usage.md
 
   - Help and Support:
       - Support: help_and_support/support.md
