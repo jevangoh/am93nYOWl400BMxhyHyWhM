@@ -25,6 +25,6 @@ where `<version>` is the version after released. It should contain only numbers 
 For example, if the version to be released is 1.3.3, you will run:
 
 ````bash
-pixi run -e dev git tag -a v1.3.3 -m "release version 1.3.3"
+pixi run -e dev git tag -a v1.3.2 -m "release version 1.3.2"
 ```
 ````
