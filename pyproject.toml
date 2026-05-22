@@ -24,31 +24,18 @@ platforms = ["win-64", "linux-64"]
 # ==================================== environments ====================================
 # ----------------------------- dev -----------------------------
 [tool.pixi.environments.dev]
-features = ["docs", "dev"]
+features = ["dev_default", "dev_build", "dev_docs", "dev_lint_and_format"]
 solve-group = "default"
 
 # ==================================== features ====================================
-# ----------------------------- dev -----------------------------
-[tool.pixi.feature.dev.dependencies]
+# ----------------------------- dev_default -----------------------------
+[tool.pixi.feature.dev_default.dependencies]
 prek = ">=0.2.30,<0.3"
-# nodejs = ">=25.2.1,<25.3"
-nodejs = ">=24,<25.3"
-markdownlint-cli2 = ">=0.20.0,<0.21"
-mkdocs = ">=1.6.1,<2"
-mkdocs-material = ">=9.7.6,<10"
-pymdown-extensions = ">=10.20,<11"
-prettier = ">=3.8.3"
+gh = ">=2.92.0,<3"
+git = ">=2.54.0,<3"
 
-[tool.pixi.feature.dev.tasks]
+[tool.pixi.feature.dev_default.tasks]
 setup = "prek install"
-# lint_documents = "npx --yes markdownlint-cli2"
-# format_documents = "npx --yes markdownlint-cli2 --fix"
-# lint_all_documents = "npx --yes markdownlint-cli2 '**/*.md'"
-# format_all_documents = "npx --yes markdownlint-cli2 --fix '**/*.md'"
-lint_documents = "prettier --check --ignore-unknown"
-format_documents = "prettier --write --ignore-unknown"
-lint_all_documents = "prettier --check . --ignore-unknown"
-format_all_documents = "prettier --write . --ignore-unknown"
 init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;
@@ -66,13 +53,37 @@ init = """
     gh label create "scope: workflow" --color "5319e7" --description "Continuous Integration (CI) related."
 """
 
-# ----------------------------- docs -----------------------------
-[tool.pixi.feature.docs.dependencies]
+# ----------------------------- dev_build -----------------------------
+[tool.pixi.feature.dev_build.dependencies]
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.7.6,<10"
+pymdown-extensions = ">=10.20,<11"
+[tool.pixi.feature.dev_build.tasks]
+build = "mkdocs build --config-file mkdocs.yaml"
+
+# ----------------------------- dev_lint_and_format -----------------------------
+[tool.pixi.feature.dev_lint_and_format.dependencies]
+prettier = ">=3.8.3"
+nodejs = ">=24,<25.3"
+markdownlint-cli2 = ">=0.20.0,<0.21"
+
+[tool.pixi.feature.dev_lint_and_format.tasks]
+# lint_documents = "npx --yes markdownlint-cli2"
+# format_documents = "npx --yes markdownlint-cli2 --fix"
+# lint_all_documents = "npx --yes markdownlint-cli2 '**/*.md'"
+# format_all_documents = "npx --yes markdownlint-cli2 --fix '**/*.md'"
+lint_documents = "prettier --check --ignore-unknown"
+format_documents = "prettier --write --ignore-unknown"
+lint_all_documents = "prettier --check . --ignore-unknown"
+format_all_documents = "prettier --write . --ignore-unknown"
+
+# ----------------------------- dev_docs -----------------------------
+[tool.pixi.feature.dev_docs.dependencies]
 mkdocs = ">=1.6.1,<2"
 mkdocs-material = ">=9.7.6,<10"
 pymdown-extensions = ">=10.20,<11"
 mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
-[tool.pixi.feature.docs.tasks]
+[tool.pixi.feature.dev_docs.tasks]
 build_docs = "mkdocs build --config-file mkdocs.yaml"
 
