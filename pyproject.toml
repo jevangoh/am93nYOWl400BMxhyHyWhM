@@ -87,3 +87,6 @@ mkdocs-monorepo-plugin = ">=1.1.2,<2"
 [tool.pixi.feature.dev_docs.tasks]
 build_docs = "mkdocs build --config-file mkdocs.yaml"
 
+[dependency-groups]
+dev_docs = ["mike>=2.2.0,<3"]
+
