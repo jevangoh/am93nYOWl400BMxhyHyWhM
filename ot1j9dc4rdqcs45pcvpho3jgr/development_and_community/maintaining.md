@@ -1,6 +1,6 @@
 # Maintaining
 
-Ensure the pre-requisites of [contributing.md](./contributing.md) are met before doing any maintenance.
+Ensure the [pre-requisites](./contributing.md#pre-requisites) are met before doing any maintenance.
 
 ## Merging Pull Requests
 
@@ -10,7 +10,7 @@ pixi run -e dev gh pr merge --squash --delete-branch
 
 > If there are more than 1 pr, an interactive prompt will appear to allow selection
 
-This will squash and merge the pr, automatically delet the issue branch and check out to main branch.
+This will squash and merge the pr, automatically delete the issue branch and check out to main branch.
 
 ## Versioning
 

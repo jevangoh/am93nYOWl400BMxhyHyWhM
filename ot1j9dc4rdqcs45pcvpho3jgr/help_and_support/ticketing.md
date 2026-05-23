@@ -6,15 +6,15 @@ Please read through the [support.md](./support.md) before submitting a ticket.
 
 You can either submit it via the Github UI through the repo site or through the terminal.
 
-If you are submitting through the terminal, ensure you are in the root of the directory first then create the ticket:
+If you are submitting through the terminal, ensure you are in the root of the specific repository directory first then create the ticket:
 
 ```bash
 pixi run -e dev gh issue create
 ```
 
-Then Follow the prompts.
+Then follow the prompts.
 
-Name of issue should be in [sentence case](./../glossary.md#type-cases)
+Name of issue should be in [sentence case](./../glossary.md#type-cases).
 Assign the relevant and correct metadata, **especially the [labels](./labels.md)**.
 
 ## Submitting ticket
@@ -28,4 +28,4 @@ Once the ticket is submitted, you will be issued an ID assigned to the ticket, p
 
 ## Post submission
 
-Use the ID assigned to the ticket to keep track of the progress.
+Use the ID assigned to the ticket to keep track of its progress.

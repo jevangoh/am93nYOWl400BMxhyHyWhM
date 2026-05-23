@@ -1,0 +1,25 @@
+# Security
+
+If you wish to report a security vulnerability -- thank you! -- we ask
+that you follow the following process, which complies with the Open
+Source Committee Maintainers Manual.
+
+Please report security vulnerabilities by filling out the following template:
+
+- PROJECT: A URL to project's repository
+- PUBLIC: Please let us know if this vulnerability has been made or discussed publicly already, and if so, please let us know where.
+- DESCRIPTION: Please provide precise description of the security vulnerability you have found with as much information as you are able and willing to provide.
+
+Please send the above info, along with any other information you feel
+is pertinent to: javerngoh@gmail.com
+
+In addition, you may request that the project provide you a patched
+release in advance of the release announcement, however, we can not
+guarantee that such information will be provided to you in advance of
+the public release and announcement. However, the community manager will email you at the same time the public
+announcement is made.
+
+The community manager will let you know within two
+business weeks whether or not your report has been accepted or
+rejected. We ask that you please keep the report confidential until we
+have made a public announcement.

@@ -6,4 +6,4 @@ This documentation is for repositories generated and maintained by [q6taaj04do99
 
 > [!NOTE]
 > **Looking for guides on this documentation?**
-> If you are a contributor looking for the documentation of this documentation itself (how to build, style, or contribute to this documentation), or a user that have a potential issue with this documentation, please visit the [repo](https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr) of this documentation or the [readthedocs](https://ot1j9dc4rdqcs45pcvpho3jgr.readthedocs.io/en/latest/).
+> If you are a contributor looking for the documentation of this documentation itself (how to build, style, or contribute to this documentation), or a user that have a potential issue with this documentation, please visit the ["About Repository"](./about_repository/index.md) section.
